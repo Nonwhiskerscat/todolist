@@ -1,0 +1,66 @@
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 5;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    .modify_modal {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 300px;
+      background-color: #000620;
+      border-radius: 10px;
+      box-shadow: 0px 0px 15px rgb(255, 255, 234);
+      padding: 1rem 0;
+
+      h3 {
+        color: #e87d93;
+        text-align: center;
+        font-size: 24px;
+        margin-top: 0;
+        margin-bottom: 14px;
+      }
+  
+  
+      .modify_flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        margin: 0 auto;
+      }
+      
+  
+      
+      .modify_input {
+        background-color: transparent;
+        outline: none;
+        border: 0;
+        font-family: HSGooltokki;
+        color: white;
+        font-size: 18px;
+        display: block;
+        width: 80%;
+  
+      }
+
+      .modify_btn {
+        cursor: pointer;
+        background-color: transparent;
+        outline: none;
+        border: 0;
+        font-family: HSGooltokki;
+        color: #fbff87;
+        font-size: 18px;
+        display: block;
+        width: 15%;
+      }
+  }
+
+  }
+  

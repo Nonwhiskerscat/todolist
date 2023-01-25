@@ -1,0 +1,99 @@
+.TodoListItem-virtualized {
+
+    & + & {
+
+    }
+    // background-color: red;
+    
+
+    background-color: #26293a;
+
+
+    &:nth-child(even) {
+        background-color: #000620;
+    }
+
+}
+
+.TodoListItem {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    &:nth-child(even) {
+        background-color: #000620;
+    }
+
+    border-top: 1px dashed #535768;
+
+
+
+    .checkbox {
+        display: flex;
+        flex: 1;
+        align-items: center;
+        cursor: pointer;
+        svg {
+            // icon
+            font-size: 1.5rem;
+            color: aliceblue;
+        }
+        .text {
+            flex: 1;
+            margin-left: 0.5rem;
+            color: aliceblue;
+        }
+
+        // checked
+        &.checked {
+            svg {
+                color: #e87d93;
+            }
+            .text {
+                color: #e87d93;
+                text-decoration: line-through;
+            }
+        }
+    }
+
+    .id_cst {
+        
+    }
+
+    .del_box {
+        font-size: 18px;
+        border-radius: 10px;
+        color: #ff8787;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+
+        &:hover {
+            color: #ff8787;
+        }
+    }
+    
+    
+    .mod_box {
+        font-size: 18px;
+        border-radius: 10px;
+        color: #fbff87;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+
+        &:hover {
+            color: #fbff87;
+        }
+    }
+
+
+
+
+
+    .remove, .modify {
+        margin-left: 10px;
+    }
+    // & + & {
+    //     border-top: 1px solid #dee2e6;
+    // }
+}

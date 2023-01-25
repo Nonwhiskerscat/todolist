@@ -1,0 +1,10 @@
+.lists_flex {
+    display: flex;
+    justify-content: space-around;
+
+    &>div {
+        color: white;
+        padding: 0.6rem 0;
+        font-size: 1.2rem;
+    }
+}

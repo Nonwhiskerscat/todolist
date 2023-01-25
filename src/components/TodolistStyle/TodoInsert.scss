@@ -1,0 +1,43 @@
+.TodoInsert {
+    display: flex;
+    background-color: #495057;
+    
+
+    input {
+        outline: none;
+        border: none;
+        padding: 0.5rem;
+        font-size: 1.25rem;
+        line-height: 1.5;
+        color: white;
+        background: none;
+        font-family: HSGooltokki;
+        &::placeholder {
+            color: #dee2e6;
+        }
+        flex: 1;
+    }
+
+    button {
+        outline: none;
+        border: none;
+        background-color: transparent;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        color: #ddd;
+        font-size: 1.5rem;
+        line-height: 1.5;
+        
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        transition: 0.2s color ease-in;
+        &:hover {
+            color: #e87d93
+        }
+    }
+
+    .sub_box {
+        font-family: HSGooltokki;
+    }
+}
